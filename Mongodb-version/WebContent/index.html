@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Event Recommendation">
+  <meta name="author" content="Wenjing Duan">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Event Recommendation</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main2.css">
+</head>
+<body>
+
+<div id="login-form" class="default-login">
+  <header id="header">Welcome to <br/>Ticket Recommendation</header>
+  <div class="login-page">
+	  <div class="form">
+	    <form  id="li-form" class="login-form">
+	      <input id="username" type="text" placeholder="email address"/>
+	      <input id="password" type="password" placeholder="password"/>
+	      <button id="login-btn">login</button>
+	      <p class="message">Not registered? <a id="signin" href="#">Create an account</a></p>
+	      <p id="login-error" style="color:red;"></p>
+	    </form>
+	    <!-- 
+	    <form id="lo-form" class="register-form">
+	      <input id="rg-username" type="text" placeholder="email address"/>
+	      <input id="rg-password" type="password" placeholder="password"/>
+	      <input id="rg-firstname" type="text" placeholder="first name"/>
+	      <input id="rg-lastname" type="text" placeholder="last name"/>
+	      <button id="logon-btn">create</button>
+	      <p class="message">Already registered? <a id="signon" href="#">Sign In</a></p>
+	      <p id="logon-error" style="color:red;"></p>
+	       -->
+    	</form>
+	  </div>	  
+  </div>
+</div>
+
+
+  <nav class="navbar text-white fixed-top" id="top-header">
+      <div class="container">
+          <ul class="nav">
+            <li class="nav-item">
+                 <span class="nav-link" id="welcome-msg"></span>
+            </li>
+            <li class="nav-item">
+                <i id="avatar" class="avatar fa fa-user fa-2x"></i>
+            </li>            
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+            </li>           
+            <li id="nav-logout" class="nav-item">
+                <a class="nav-link text-info text-right" href="logout">Logout</a>
+            </li> 
+          </ul>
+      </div>
+  </nav>
+
+<div id="container">
+    <header>
+      <p>
+        <span>Event</span>
+        <br /> Recommendation
+      </p>
+    </header>
+
+    <section class="main-section">
+    
+      <aside id="item-nav">
+        <div class="nav-icon">
+          <i class="fa fa-sitemap fa-2x"></i>
+        </div>
+        <nav class="main-nav">
+          <a href="#" id="nearby-btn" class="main-nav-btn active">
+            <i class="fa fa-map-marker"></i> Nearby
+          </a>
+          <a href="#" id="fav-btn" class="main-nav-btn">
+            <i class="fa fa-heart"></i> My Favorites
+          </a>
+          <a href="#" id="recommend-btn" class="main-nav-btn">
+            <i class="fa fa-thumbs-up"></i> Recommendation
+          </a>
+        </nav>
+      </aside>
+
+      <ul id="item-list">
+        <li class="item">
+          <img alt="item image" src="https://s3-media3.fl.yelpcdn.com/bphoto/EmBj4qlyQaGd9Q4oXEhEeQ/ms.jpg" />
+          <div>
+            <a class="item-name" href="#">Item</a>
+            <p class="item-category">Vegetarian</p>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+          </div>
+          <p class="item-address">699 Calderon Ave<br/>Mountain View<br/> CA</p>
+          <div class="fav-link">
+            <i class="fa fa-heart"></i>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <footer>
+    <p class="title">What I Do</p>
+    <p >Present best things happening around you"</p>
+    <ul>
+      <li>
+        <p style="font-size:1.5em;"><i class="fa fa-map-o fa-2x"></i></p>
+        <p>USC, Los Angeles, CA</p>
+      </li>
+      <li>
+        <p style="font-size:1.5em;"><i class="fa fa-envelope-o fa-2x"></i></p>
+        <p>duanw@usc.edu</p>
+      </li>
+      <li>
+        <p style="font-size:1.5em;"><i class="fa fa-phone fa-2x"></i></p>
+        <p>+1 213 245 0722</p>
+      </li>
+    </ul>
+  </footer>
+  
+  <script src="https://rawgit.com/emn178/js-md5/master/build/md5.min.js"></script>
+  <script src="scripts/main4.js"></script>
+</body>
+</html>
