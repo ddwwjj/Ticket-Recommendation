@@ -14,6 +14,10 @@ I developed two versions of website:
 
 These are only core source code, please check the running result [here](https://youtu.be/4iMDEmIGyKc).
 
-
+![Logon](https://s3-us-west-1.amazonaws.com/dailyduan/images/pic1.JPG)
+![Search](https://s3-us-west-1.amazonaws.com/dailyduan/images/pic2.JPG)
+![Event Information](https://s3-us-west-1.amazonaws.com/dailyduan/images/pic3.JPG)
+![Favorite](https://s3-us-west-1.amazonaws.com/dailyduan/images/pic4.JPG)
+![Recommendation](https://s3-us-west-1.amazonaws.com/dailyduan/images/pic5.JPG)
 
 Date: 02/09/2018
