@@ -1,7 +1,5 @@
 # Ticket-Recommendation
 
-[Running Result:](https://youtu.be/4iMDEmIGyKc)
-
 ### Hi there, welcome to Personal Ticket Recommendation Website.
 
 I developed two versions of website:
@@ -16,4 +14,6 @@ I developed two versions of website:
 
 These are only core source code, please check the running result [here](https://youtu.be/4iMDEmIGyKc).
 
-### 02/09/2018
+
+
+Date: 02/09/2018
